@@ -1,6 +1,9 @@
 /**
  * Sentinel X Agent - Main Entry Point
  * Autonomous security agent for X Layer
+ * 
+ * Running in DEMO MODE (no blockchain connection)
+ * For production: Set X_LAYER_RPC in .env file
  */
 
 require('dotenv').config();
