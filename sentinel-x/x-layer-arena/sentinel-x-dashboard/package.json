@@ -1,0 +1,32 @@
+{
+  "name": "sentinel-x-dashboard",
+  "version": "1.0.0",
+  "description": "Sentinel X Dashboard - Protect your assets on X Layer",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["x-layer", "defi", "security", "wallet", "dashboard", "uniswap"],
+  "author": "Sentinel X Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ethers": "^6.11.0",
+    "web3": "^4.0.0",
+    "axios": "^1.6.0",
+    "swr": "^2.2.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentinel-x/sentinel-x-dashboard.git"
+  }
+}

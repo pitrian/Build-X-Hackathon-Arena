@@ -1,0 +1,30 @@
+{
+  "name": "sentinel-x-agent",
+  "version": "1.0.0",
+  "description": "Sentinel X Agent - Autonomous security scanner and reporter for X Layer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "scan": "node src/scanners/new-project-scanner.js"
+  },
+  "keywords": ["x-layer", "security", "agent", "moltbook", "defi", "scanner"],
+  "author": "Sentinel X Team",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.11.0",
+    "axios": "^1.6.0",
+    "twitter-api-v2": "^1.15.0",
+    "web3": "^4.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentinel-x/sentinel-x-agent.git"
+  }
+}

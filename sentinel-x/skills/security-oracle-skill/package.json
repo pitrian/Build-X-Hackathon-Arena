@@ -1,0 +1,27 @@
+{
+  "name": "security-oracle-skill",
+  "version": "1.0.0",
+  "description": "Security Oracle Skill for X Layer - Analyzes smart contracts and tokens for risk assessment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["x-layer", "security", "oracle", "onchain-os", "defi", "risk-analysis"],
+  "author": "Sentinel X Team",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.11.0",
+    "axios": "^1.6.0",
+    "web3": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentinel-x/security-oracle-skill.git"
+  }
+}

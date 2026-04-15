@@ -1,0 +1,42 @@
+{
+  "name": "sentinel-x",
+  "version": "1.0.0",
+  "description": "Sentinel X - AI-Powered Security for X Layer",
+  "private": true,
+  "workspaces": [
+    "skills/security-oracle-skill",
+    "x-layer-arena/sentinel-x-dashboard",
+    "agent-track/sentinel-x-agent"
+  ],
+  "scripts": {
+    "setup": "npm install && cd skills/security-oracle-skill && npm install && cd ../../x-layer-arena/sentinel-x-dashboard && npm install && cd ../../agent-track/sentinel-x-agent && npm install",
+    "dev:skill": "cd skills/security-oracle-skill && npm run dev",
+    "dev:dashboard": "cd x-layer-arena/sentinel-x-dashboard && npm run dev",
+    "dev:agent": "cd agent-track/sentinel-x-agent && npm run dev",
+    "test": "jest",
+    "test:skill": "cd skills/security-oracle-skill && npm test",
+    "test:dashboard": "cd x-layer-arena/sentinel-x-dashboard && npm test",
+    "test:agent": "cd agent-track/sentinel-x-agent && npm test",
+    "build:dashboard": "cd x-layer-arena/sentinel-x-dashboard && npm run build",
+    "start:agent": "cd agent-track/sentinel-x-agent && npm start"
+  },
+  "keywords": [
+    "x-layer",
+    "defi",
+    "security",
+    "ai",
+    "blockchain",
+    "sentinel",
+    "hackathon"
+  ],
+  "author": "Sentinel X Team",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentinel-x/sentinel-x.git"
+  }
+}
